@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0b0423;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#left ,#right{
+width: 300px;
+min-height: 400px;
+margin: 20px;
+border: 2px solid #fff;
+}
+.list{
+    background-color: #e91e63;
+    height: 60px;
+    margin: 30px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: grab;
+}
+.list img{
+    width: 10px;
+    margin-right: 15px;
+    margin-left: 10px;
+}
